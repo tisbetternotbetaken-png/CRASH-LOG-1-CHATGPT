@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRASH LOG 01 | Linux Investigation</title>
+<style>
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: #090d16;
+    color: #e5eaf3;
+    font-family: monospace;
+}
+header {
+    padding: 35px 8%;
+    background: linear-gradient(120deg,#111b32,#25204a);
+    border-bottom: 1px solid #35456a;
+}
+header h1 { color: #8bbaff; margin: 0; }
+header p { color: #aab7cc; }
+main { max-width: 950px; margin: 35px auto; padding: 0 20px; }
+.panel {
+    background: #111827;
+    border: 1px solid #29364d;
+    border-radius: 12px;
+    padding: 22px;
+    margin-bottom: 22px;
+}
+h2 { color: #8bbaff; }
+.status { color: #ffc76b; }
+pre {
+    background: #070b12;
+    color: #a9e6bb;
+    padding: 18px;
+    border-radius: 8px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #78869d;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>CRASH LOG 01</h1>
+    <p>Linux Mint | System Incident Investigation</p>
+    <p class="status">STATUS: UNDER INVESTIGATION</p>
+</header>
+
+<main>
+    <section class="panel">
+        <h2>Incident Overview</h2>
+        <p><b>Device:</b> Teclast F16 Pro</p>
+        <p><b>Operating System:</b> Linux Mint</p>
+        <p><b>Date:</b> November 8, 2026</p>
+        <p><b>Incident window:</b> Approximately 01:50–02:14 AM</p>
+        <p><b>Symptoms:</b> Severe input lag and system unresponsiveness.</p>
+        <p><b>Recovery:</b> Manual restart.</p>
+    </section>
+
+    <section class="panel">
+        <h2>Investigation Timeline</h2>
+        <ul>
+            <li>02:03 — Flatpak SystemHelper timeout.</li>
+            <li>02:07 — TouchEgg reports delayed input processing.</li>
+            <li>02:08 — Keyboard and mouse events lag behind.</li>
+            <li>02:14 — Approximate end of incident window.</li>
+        </ul>
+    </section>
+
+    <section class="panel">
+        <h2>Forensic Findings</h2>
+        <p>Possible system responsiveness issue. No confirmed kernel panic.</p>
+        <p>Root cause has not yet been established.</p>
+    </section>
+
+    <section class="panel">
+        <h2>Raw Terminal Evidence</h2>
+        <p>Replace this text with your actual terminal log.</p>
+        <pre>AWAITING LOG UPLOAD...</pre>
+    </section>
+</main>
+
+<footer>
+    CRASH LOG 01 | Linux System Investigation
+</footer>
+
+</body>
+</html>
